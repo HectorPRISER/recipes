@@ -1,0 +1,25 @@
+{
+  "type":"module",
+  "name": "mon-projet",
+  "version": "1.0.0",
+  "description": "projet supdecuisine",
+  "main": "filter.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.0.0",
+    "jest-environment-jsdom": "^29.7.0"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "testMatch": [
+      "**/?(*.)+(spec|test).[jt]s?(x)"
+    ]
+  },
+  "author": "Votre Nom",
+  "license": "ISC"
+}

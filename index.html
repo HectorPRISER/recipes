@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Explorez plus de 1500 recettes simples et généreuses pour le quotidien">
+    <title>Sup De Cuisine</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="element_acceuil">
+            <div class="dessus_image">
+                <div>
+                    <h1 class="description_site">Cherchez parmis plus de 1500 recettes du quotidien, simples et
+                        généreuses
+                    </h1>
+                </div>
+                <div class="search-bar">
+                    <label for="site-search">Recherchez une recette :</label>
+                    <input type="search" id="site-search" name="q" />
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container-filter">
+            <div class="filters-group">
+                <div id="filterlist"></div>
+            </div>
+        </div>
+        <div id="recipeslist"></div>
+    </main>
+    <script src="script.js" defer></script>
+    <script src="filter.js" defer></script>
+</body>
+
+</html>
